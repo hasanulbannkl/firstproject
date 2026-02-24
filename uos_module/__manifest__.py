@@ -1,0 +1,20 @@
+{
+    "name": "UOS University",
+    "version": "1.0",
+    "summary": "University base module with colleges, students, semesters, and books",
+    "description": "Base module for UOS University to manage students, semesters, and assigned books",
+    "category": "Education",
+    "author": "ubh hb",
+    "depends": ["base", "portal", "website"],
+    "data": [
+        "security/ir.model.access.csv",
+        "views/university_views.xml",
+        "views/college_views.xml",
+        "views/student_views.xml",
+        "views/semester_views.xml",
+        "views/student_semester_book_views.xml",
+    ],
+    "installable": True,
+    "application": True,
+    "auto_install": False,
+}
